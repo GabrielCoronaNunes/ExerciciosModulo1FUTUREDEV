@@ -1,3 +1,8 @@
+//[M1S03] Ex 4 - Número múltiplo
+//Crie um número aleatório de 0 à 100 e o exiba ao usuário. Peça ao usuário que digite um múltiplo do número aleatório. Somente saia do laço caso o usuário informe um número correto.
+
+
+
 package br.com.futuredev.exercicios3;
 
 import java.util.Random;

@@ -1,3 +1,8 @@
+//[M1S02] Ex 2 - Leitor de números
+//Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual operação ele deseja realizar. O resultado da operação deve ser acompanhado de uma frase que diga se o número é: Par ou ímpar, ou se é positivo ou negativo.
+
+
+
 package br.com.futuredev.semana2;
 
 import java.util.Scanner;

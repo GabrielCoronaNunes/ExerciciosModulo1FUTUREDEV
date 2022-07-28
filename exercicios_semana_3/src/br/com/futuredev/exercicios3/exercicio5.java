@@ -1,3 +1,7 @@
+//[M1S03] Ex 5 - Hobby - do-while
+//Utilizando o laço "do-while", peça ao usuário que informe seus passatempos preferidos. Armazene-os em um ArrayList até que o usuário escreva "fechar". Ao sair do laço, mostrar no console todos os passatempos inseridos.
+
+
 package br.com.futuredev.exercicios3;
 
 import java.util.ArrayList;

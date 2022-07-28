@@ -1,3 +1,9 @@
+//[M1S03] Ex 2 - Calcular média - array
+//Crie um array de 3 posições e pergunte ao usuário 3 notas.
+//Após o usuário inseri-las, calcule e exiba a média.
+
+
+
 package br.com.futuredev.exercicios3;
 
 import java.util.Scanner;

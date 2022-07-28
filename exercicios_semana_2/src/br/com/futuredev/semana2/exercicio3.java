@@ -1,3 +1,7 @@
+//[M1S02] Ex 3 - Maior e menor
+//Faça um programa que peça dois números ao usuário e mostre qual o maior e qual o menor.
+
+
 package br.com.futuredev.semana2;
 
 import java.util.Scanner;

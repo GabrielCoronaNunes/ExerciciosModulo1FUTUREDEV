@@ -1,3 +1,8 @@
+//[M1S03] Ex 3 - Calcular média - usando ArrayList e loop
+//Peça ao usuário quantas notas ele precisa informar. Armazene todas as notas em um ArrayList utilizando o loop que preferir (while/do-while/for).
+//Após informado todas as notas, utilize o laço de repetição "for" para realizar a soma de todas as notas e posteriormente exibir a média.
+
+
 package br.com.futuredev.exercicios3;
 
 import java.util.ArrayList;

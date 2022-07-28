@@ -1,3 +1,7 @@
+//[M1S02] Ex 4 - Troca de valores
+//Crie um programa que peça um número ao usuário e armazene ele na variável x. Depois peça outro número e armazene na variável y. Mostre esses números. Em seguida, faça com que x passe a ter o valor de y, e que y passe a ter o valor de x.
+
+
 package br.com.futuredev.semana2;
 
 import java.util.Scanner;

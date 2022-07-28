@@ -1,3 +1,8 @@
+//[M1S01] Ex 2 - Estações do ano
+//Criar um projeto com nome "SegundoExercicio" que contenha uma constante para cada estação do ano. Exibir no console todas as constantes criadas.
+
+
+
 package br.com.futuredev.semana1;
 
 public class exercicio2 {

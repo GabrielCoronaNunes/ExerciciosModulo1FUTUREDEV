@@ -1,3 +1,8 @@
+//[M1S02] Ex 1 - Salários mínimos
+//Faça um programa em java que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e mostre a quantidade de salários mínimos que ganha esse funcionário.
+
+
+
 package br.com.futuredev.semana2;
 
 import java.util.Scanner;

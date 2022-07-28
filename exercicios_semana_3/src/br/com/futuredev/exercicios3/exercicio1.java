@@ -1,3 +1,7 @@
+//[M1S03] Ex 1 - Populando array
+//Utilizando um array de 10 posições, peça ao usuário que informe 10 números. O sistema deve imprimir todos no console.
+
+
 package br.com.futuredev.exercicios3;
 
 import java.util.Scanner;

@@ -1,0 +1,106 @@
+Defina o que é uma estrutura de dados e como elas são aplicadas na linguagem de programação Java.
+
+Estruturas de dados são maneiras de organizar, armazenar e manusear os dados que utilizamos no exercício
+da programação. Através dela, junto com os algoritmos, criamos os programas que desejamos.
+Em Java, existem diversos tipos de estruturas de dados, sendo elas:
+
+A.Arrays
+Os Arrays, ou vetores, tem como característica a possibilidade de serem criados com tipos primitivos de dados (int,
+boolean, double, etc.). Além disso, uma vez criados é necessário específicar quantos dados eles irão
+armazenar, não sendo possível modificar isso posteriormente.
+Para criarmos um array, utilizamos esse código:
+int[] arrayNumeros = new int[10];
+Este array é um array de tipo Int, declarado logo no início, atribuindo o nome depois, e falando que ele recebe um int
+com 10 lugares.
+
+B.Matrizes.
+Matrizes são Arrays com mais de um índice, de modo que cada elemento do primeiro vetor possuí um segundo vetor;
+Para criarmos uma matriz, utilizamos esse código:
+ int[][] arrayNumeros = new int[2][2];
+Seguindo a mesma lógica dos vetores, declaramos o tipo de dado que a matriz armazena, com a diferença
+de que ao invés de colocarmos apenas um índice, colocamos o número desejado. Esta matriz no caso possuí
+dois vetores, com cada um deles tendo mais dois vetores dentro.
+
+Collection
+Antes de falar sobre outras estruturas, é necessário entender collection. Ao contrário dos vetores
+e matrizes, que podem armazenar dados primitivos, as outras estruturas armazenam objetos, que possuem
+algumas diferenças com os tipos primitivos. Os tipos primitivos armazenam as variáveis neles mesmos,
+enquanto objetos transformam as variáveis em apenas ponteiros para onde realmente estão os dados.
+A collection em si não tem implementação, servindo de pai para outras interfaces que são utilizadas.
+
+1.List
+List, ou listas, é uma interface que herda Collection, tendo dentro de si classes como ArrayList,
+LinkedList, Vector e Stack. Estas duas últimas não são usadas por serem lentas, sendo substítuidas
+por outras classes.
+
+I. ArrayList
+ArrayList, classe de List, são arrays que podem ter seu tamanho alterado, herdando de List, elas podem
+utilizar métodos próprios da interface, mas podem serem também utilizados como qualquer outra classe.
+Para criarmos uma ArrayList, podemos escrevermos os seguintes códigos:
+List<String> stringList = new ArrayList<>();
+ArrayList<String> stringArrayList = new ArrayList<>();
+No primeiro caso, criamos uma ArrayList invocando a interface List, permitindo utilizarmos métodos dessa
+classe, enquanto no segundo não.
+
+II.LinkedList
+LinkedList estruturam os dados de maneira diferentes, onde cada elemento da lista faz referência para
+o próximo elemento, com o último apontandando para null. Dessa maneira, é fácil identificarmos  o
+primeiro e último endereços da lista, também como modificar o último. Mas em contrapartida o meio
+é mais difícil de ser alterado, e também é mais difícil encontrar algum elemento específico.
+Para criarmos uma LinkedList, podemos escrevermos os seguintes códigos:
+List<String> stringLinkedList = new LinkedList<>();
+LinkedList<String> stringLinkedList = new LinkedList<>();
+Entre o List e o LinkedList, segue a mesma lógica do ArrayList.
+
+2.Set
+Assim como List, Set é uma interface. O diferencial dela é que representando conjuntos de maneira
+matemática, ela não possibilita a repetição de valores. Há duas interfaces que herdam de Set, sendo elas
+a SortedSet e NavigableSet, com também uma classe que herda direto, a HashSet.
+
+I. HashSet
+A HashSet é uma implementação de Sets baseada em HashFunctions, que organizam as informações de maneira
+matemática, de modo que não é possível repetir as informações pois elas ocupariam o mesmo lugar.
+Para criarmos um HashSet, escrevemos os códigos:
+List<String> stringList = new ArrayList<>();
+HashSet<String> stringList = new HashSet<>();
+
+II. SortedSet
+A interface SortedSet contém todos os métodos de Set, com a diferença de que os dados dela podem serem ordenados.
+O código para criar uma SortedSet é:
+SortedSet<String> stringSet = new TreeSet<>();
+TreeSet<String> stringSet = new TreeSet<>();
+
+III. NavigableSet
+A NavigableSet é uma interface que herda de SortedSet, com a adição de possibilitar a navegação entre os dados, possibilitando inverter
+eles e outras funções.
+O código é:
+NavigableSet<Integer> integerNavigableSet = new TreeSet<>();
+
+IV. TreeSet
+TreeSet é uma classe que herda NavigableSet. Sua implementação é baseada na estrutura de uma árvore,
+onde cada elemento é uma das folhas das árvores. Assim sua organização é feita de maneira natural.
+O código é:
+TreeSet<String> stringTreeSet = new TreeSet<>();
+
+3.Queue
+Queue é uma interface para manejar o tráfego de dados, orgarnizamos sua saída e sua entrada através do
+FIFO(First in First Out) ou LIFO(Last In First Out).
+Queue é pai de apenas uma interface, a Deque.
+
+I. Deque
+Double ended queue, mais conhecido como deque, possibilita a adição e retirada de elementos das duas
+pontas. Tanto ArrayList quanto LinkedList podem herdar dela.
+Para criarmos uma ArrayList e uma LinkedList que herdam de Deque, escrevemos o seguinte código:
+Deque<Integer> integerDeque = new LinkedList<>();
+Deque<Integer> integerDeque = new ArrayDeque<>();
+
+
+II. PriorityQueue
+PriorityQueue é uma classe que possibilita adicionar prioridades aos elementos de uma lista, sendo assim
+elementos mais importantes podem serem expostos primeiros.
+Para criarmos escrevemos o seguinte código:
+PriorityQueue<Integer> integerQueue = new PriorityQueue<>();
+
+
+
+
